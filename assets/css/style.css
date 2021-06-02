@@ -7,5 +7,16 @@
 }
 
 body    {
+    font-family: Poppins, sans-serif;
+    font-weight: 200;
+    color: cadetblue;
+}
+
+/* headings and logo */
+
+h1, h2  {
     font-family: Yeseva-one, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: black;
 }
