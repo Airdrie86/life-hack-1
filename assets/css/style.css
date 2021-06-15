@@ -15,10 +15,11 @@ body    {
 /* headings and logo */
 
 header {
-    background: rgb(243, 165, 91);
+    background: rgb(221, 156, 94);
     position: fixed;
     width: 100%;
     padding: 5px 0px;
+    z-index: 9;
 }
 
 h1, h2  {
@@ -44,6 +45,7 @@ h1, h2  {
 
 #navigation {
     float: right;
+    
 }
 
 #navigation li {
@@ -60,3 +62,35 @@ h1, h2  {
 #navigation a:hover {
     border-bottom: 1px solid rgb(15, 15, 15);
 }
+
+/* hero image */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#hero {
+    height: 500px;
+    width: 100%;
+    background: url('../images/hero.jpg') no-repeat center center;
+    opacity: .8;
+
+    /* animates zoom effect on loading page */
+    animation-name: hero-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+/* creates level of zoom for hero image */
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+
