@@ -15,7 +15,7 @@ body    {
 /* headings and logo */
 
 header {
-    background: rgb(221, 156, 94);
+    background: rgb(201, 40, 40);
     position: fixed;
     width: 100%;
     padding: 5px 0px;
@@ -74,7 +74,7 @@ h1, h2  {
 }
 
 #cover-text1, #cover-text1 h2 {
-    color: #fff;
+    color: rgb(12, 12, 12);
 }
 
 #hero {
@@ -106,15 +106,42 @@ h1, h2  {
     letter-spacing: 1px;
 
     width: 650px;
-    height: 100px;
+    height: 120px;
 
     padding: 10px 0px 10px 10px;
 
-    background-color: rgb(8, 8, 8, .8);
+    background-color: rgba(238, 14, 14);
 
     bottom: 200px;
     left: 400px;
-    top: 100px;
+    top: 200px;
 
     position: absolute;
+}
+
+/* Website introduction */
+
+ #website-intro {
+        height: 500px;
+ }
+
+ #left-about {
+     padding-top: 20px;
+     width: 33%;
+     float: left;
+     background-color: blue;
+ }
+
+ #right-about {
+    padding-top: 20px;
+    width: 33%;
+    float: right;
+    background-color: silver;
+}
+
+#center-about {
+    padding-top: 20px;
+    width: 33%;
+    margin: 0 auto;
+    background-color: green;
 }
