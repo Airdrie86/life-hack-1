@@ -145,3 +145,33 @@ h1, h2  {
     margin: 0 auto;
     background-color: green;
 }
+
+
+
+
+
+/* footer */
+
+footer {
+    height: 70px;
+    background: rgb(201, 40, 40);
+    margin-bottom: 0;
+    padding-bottom: 0%;
+}
+
+.social-networks {
+    text-align: left;
+    margin-left: 3%;
+    padding-top: 10px;
+    
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 150%;
+    color: rgb(0, 0, 0);
+    margin: 1%;
+}
