@@ -180,8 +180,16 @@ footer {
 
 #left-image {
     padding: 100px 0px 0px 50px;
+    display: inline-block;
 }
 
 #right-text {
     text-align: center;
 }
+
+#left-text {
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
