@@ -243,7 +243,7 @@ footer {
     width: 85%;
     background: #FDFCFB;
     font-family: Poppins, sans-serif;
-    color: #737373;
+    color: #000000;
     letter-spacing: 1px;
     text-indent: 5%;
     border-radius: 5px 0 0 5px;
@@ -257,18 +257,14 @@ footer {
     letter-spacing: 1px;
     border-radius: 0 5px 5px 0;
     color: black;
-}
+  }
     
   
   #register:hover {
-    background: rgb(201, 40, 40);
+    background: rgb(243, 48, 48);
     color: rgb(76, 67, 67);
   }
     
   
-  input:focus {
-    outline: none;
-    outline: 2px solid rgb(201, 40, 40);
-    box-shadow: 0 0 2px rgb(201, 40, 40);
-  }
+  
 
