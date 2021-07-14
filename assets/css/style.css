@@ -193,3 +193,82 @@ footer {
     padding-left: 20px;
 }
 
+/* register */
+
+/* Form */
+
+.form-section {
+    clear: left;
+    background: url(../images/relaxing.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+
+
+.header {
+    font-size: 50px;
+    letter-spacing: 8px;
+    color: black;
+    padding-top: 20%;
+  
+  }
+  
+  form {
+     width: 800px;
+     text-align: center;
+     margin: auto;
+  }
+  
+  .info {
+        font-size: 14px;
+        letter-spacing: 1px;
+        margin-top: 10px;
+      }
+  
+  
+  .input {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .button {
+    height: 50px;
+    border: none;
+  }
+  
+    
+  #text-input {
+    width: 85%;
+    background: #FDFCFB;
+    font-family: Poppins, sans-serif;
+    color: #737373;
+    letter-spacing: 1px;
+    text-indent: 5%;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  
+  #register {
+    width: 25%;
+    height: 50px;
+    background: rgb(201, 40, 40);
+    letter-spacing: 1px;
+    border-radius: 0 5px 5px 0;
+    color: black;
+}
+    
+  
+  #register:hover {
+    background: rgb(201, 40, 40);
+    color: rgb(76, 67, 67);
+  }
+    
+  
+  input:focus {
+    outline: none;
+    outline: 2px solid rgb(201, 40, 40);
+    box-shadow: 0 0 2px rgb(201, 40, 40);
+  }
+
