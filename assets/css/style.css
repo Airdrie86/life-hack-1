@@ -125,25 +125,38 @@ h1, h2  {
         height: 500px;
  }
 
+ #website-intro > h1 {
+     text-align: center;
+     font-size: 150%;
+ }
+
+#website-intro > p  {
+    text-align: center;
+    font-size: 120%;
+}
+
  #left-about {
      padding-top: 20px;
      width: 33%;
      float: left;
      background-color: blue;
+     margin-top: 20px;
  }
 
  #right-about {
-    padding-top: 20px;
+    padding: 20px 0 0 0;
+    margin: 20px 0 0 20px;
     width: 33%;
     float: right;
     background-color: silver;
+    clear: right;
 }
 
 #center-about {
     padding-top: 20px;
     width: 33%;
-    margin: 0 auto;
     background-color: green;
+    margin: 20px auto;
 }
 
 
