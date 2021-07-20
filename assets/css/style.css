@@ -131,7 +131,7 @@ h1, h2  {
 
  #website-intro {
         height: 500px;
-        margin-left: 100px;
+        margin-left: 125px;
  }
 
  #website-intro > h1 {
@@ -151,12 +151,20 @@ h1, h2  {
      margin-top: 20px;
  }
 
+ #left-about > p {
+     margin-left: 25px;
+ }
+
  #right-about {
     padding: 20px 0 0 0;
     margin: 20px 0 0 20px;
     width: 33%;
     float: right;
     clear: right;
+}
+
+#right-about > p {
+    margin-left: 25px;
 }
 
 #center-about {
