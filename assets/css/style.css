@@ -130,7 +130,7 @@ h1, h2  {
 }
 
  #website-intro {
-        height: 400px;
+        height: 500px;
         margin-left: 100px;
  }
 
@@ -167,6 +167,7 @@ h1, h2  {
 
 #webinar-info {
     text-align: center;
+    padding-top: 75px;
 }
 
 #webinar {
