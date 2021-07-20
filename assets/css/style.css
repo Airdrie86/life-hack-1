@@ -165,6 +165,9 @@ h1, h2  {
     margin: 20px auto;
 }
 
+#webinar-info {
+    text-align: center;
+}
 
 #webinar {
     background-image: url('../images/webinar.jpg');
