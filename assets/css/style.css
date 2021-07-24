@@ -79,45 +79,19 @@ h1, h2  {
 
 #hero {
     height: 500px;
-    width: 100%;
+    width: 80%;
     background: url('../images/hero.jpg') no-repeat center center;
     opacity: .8;
-
-    /* animates zoom effect on loading page */
-    animation-name: hero-zoom;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
-/* creates level of zoom for hero image */
-@keyframes hero-zoom {
-    from{
-        transform: scale(1);
-    }
-    to{
-        transform: scale(1.1);
-    }
+#main-body {
+    background-color: rgb(228, 228, 228);
 }
 
-#cover-text1 {
-    font-size: 110%;
-    font-family: Yeseva-one, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-
-    width: 650px;
-    height: 120px;
-
-    padding: 10px 0px 10px 10px;
-
-    background-color: rgba(201, 40, 40);
-
-    bottom: 200px;
-    left: 400px;
-    top: 200px;
-
-    position: absolute;
-}
 
 /* Website introduction */
 
@@ -237,7 +211,7 @@ footer {
 
 /* Cleaning Page */
 
-#main-body {
+#main-body-cleaning {
     height: 1700px;
     background-color: rgb(228, 228, 228);
 }
@@ -247,14 +221,20 @@ footer {
     display: inline-block;
 }
 
+#right-image {
+    padding-right: 50px;
+    display: inline-block;
+}
+
 #right-text {
     text-align: center;
+    padding-right: 50px;
 }
 
 #left-text {
     text-align: center;
     padding-top: 100px;
-    padding-left: 20px;
+    padding-left: 50px;
 }
 
 /* cooking page */
