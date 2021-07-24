@@ -69,13 +69,14 @@ h1, h2  {
     height: 600px;
     width: 100%;
     overflow: hidden;
-
     position: relative;
 }
 
-#cover-text1, #cover-text1 h2 {
-    color: rgb(12, 12, 12);
+.cover-text {
+    color: #fafafa;
 }
+
+
 
 #hero {
     height: 500px;
