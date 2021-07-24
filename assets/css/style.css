@@ -173,9 +173,14 @@ h1, h2  {
     margin: 20px auto;
 }
 
+#center-about > p {
+    margin-left: 25px;
+}
+
 #webinar-info {
     text-align: center;
     padding-top: 75px;
+    margin-right: 100px;
 }
 
 #webinar {
@@ -232,6 +237,11 @@ footer {
 
 /* Cleaning Page */
 
+#main-body {
+    height: 1700px;
+    background-color: rgb(228, 228, 228);
+}
+
 #left-image {
     padding: 100px 0px 0px 50px;
     display: inline-block;
@@ -245,6 +255,20 @@ footer {
     text-align: center;
     padding-top: 100px;
     padding-left: 20px;
+}
+
+/* cooking page */
+
+#main-body-cooking {
+    height: 1700px;
+    background-color: rgb(228, 228, 228);
+}
+
+/* students page */
+
+#main-body-student {
+    height: 1700px;
+    background-color: rgb(228, 228, 228);
 }
 
 /* register */
