@@ -65,12 +65,7 @@ h1, h2  {
 
 /* hero image */
 
-#hero-outer {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
+
 
 #cover-text {
     width: 400px;
@@ -81,8 +76,8 @@ h1, h2  {
     font-size: 120%;
     animation: textgrowth 2s alternate;
 
-    bottom: 300px;
-    left: 550px;
+    margin-top: 200px;
+    margin-left: 425px;
     background-color: rgb(0, 0, 0, .7);
 
     position: absolute;
@@ -97,16 +92,21 @@ h1, h2  {
     }
 }
 
+#cover-text > p {
+    text-align: center;
+}
+
 
 
 #hero {
     height: 500px;
-    width: 80%;
+    width: 100%;
     background: url('../images/hero.jpg') no-repeat center center;
     opacity: .65;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
 }
 
 #main-body {
@@ -115,6 +115,10 @@ h1, h2  {
 
 
 /* Website introduction */
+
+#website {
+    margin-top: 50px;
+}
 
 #website > h2 {
     text-align: center;
@@ -211,6 +215,7 @@ footer {
     background: rgb(201, 40, 40);
     margin-bottom: 0;
     padding-bottom: 0%;
+    width: 100%;
 }
 
 .social-networks {
@@ -344,6 +349,28 @@ footer {
     color: rgb(76, 67, 67);
   }
     
-  
+  /* Media Queries */
+
+  @media screen and (max-width: 1300px) {
+        #website-intro {
+            width: 65%;
+            height: 1200px;
+            margin: 0 auto;
+        }
+        #left-about, #right-about, #center-about {
+            width: 100%;
+            float: right;
+            padding: 0;
+        }
+        #logo {
+            font-size: 100%;
+        }
+        #navigation li {
+                font-size: 80%;
+        }
+        #main-body-cleaning, #main-body-cooking, #main-body-student {
+            height: 2000px;
+        }
+  }
   
 
