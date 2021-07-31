@@ -77,7 +77,7 @@ h1, h2  {
     animation: textgrowth 2s alternate;
 
     margin-top: 200px;
-    margin-left: 425px;
+    margin-left: 550px;
     background-color: rgb(0, 0, 0, .7);
 
     position: absolute;
@@ -350,6 +350,7 @@ footer {
   }
     
   /* Media Queries */
+  /* For larger to medium screen size from 1300 down */
 
   @media screen and (max-width: 1300px) {
         #website-intro {
@@ -361,6 +362,7 @@ footer {
             width: 100%;
             float: right;
             padding: 0;
+            clear: both;
         }
         #logo {
             font-size: 100%;
@@ -368,9 +370,41 @@ footer {
         #navigation li {
                 font-size: 80%;
         }
-        #main-body-cleaning, #main-body-cooking, #main-body-student {
-            height: 2000px;
+        #main-body-cleaning, #main-body-student {
+            height: 1800px;
+            clear: both;
+        }
+        #main-body-cooking {
+            height: 2100px;
+        }
+        form {
+            width: 65%;
+        }
+        #cover-text {
+            margin-left: auto;
         }
   }
   
+  /* For larger to medium screen size from 900 down */
 
+  @media screen and (max-width: 900px) {
+      #navigation {
+          float: left;
+          clear: left;
+          line-height: 20px;
+      }
+      #logo {
+          float: left;
+          clear: left;
+          line-height: 20px;
+      }
+      #main-body-cleaning, #main-body-student {
+        height: 2400px;
+        clear: both;
+        width: auto;
+    }
+    #main-body-cooking {
+        height: 2800px;
+        width: auto;
+    }
+  }    
