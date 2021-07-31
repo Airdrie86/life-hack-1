@@ -392,11 +392,13 @@ footer {
           float: left;
           clear: left;
           line-height: 20px;
+          margin-left: 10px;
       }
       #logo {
           float: left;
           clear: left;
           line-height: 20px;
+          margin-left: 10px;
       }
       #main-body-cleaning, #main-body-student {
         height: 2400px;
@@ -406,5 +408,11 @@ footer {
     #main-body-cooking {
         height: 2800px;
         width: auto;
+    }
+    footer {
+        width: 900px;
+    }
+    body {
+        clear: left;
     }
   }    
