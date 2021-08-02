@@ -410,9 +410,9 @@ footer {
         width: auto;
     }
     footer {
-        width: 900px;
+        width: auto;
     }
     body {
-        clear: left;
+      width: fit-content;
     }
   }    
