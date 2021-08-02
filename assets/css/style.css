@@ -388,19 +388,25 @@ footer {
   /* For larger to medium screen size from 900 down */
 
   @media screen and (max-width: 900px) {
-      #navigation {
+    #navigation {
+          float: left;
+          clear: left;
+          line-height: 20px;
+          margin-left: 10px;
+          letter-spacing: 1px;
+      }
+    #logo {
           float: left;
           clear: left;
           line-height: 20px;
           margin-left: 10px;
       }
-      #logo {
-          float: left;
-          clear: left;
-          line-height: 20px;
-          margin-left: 10px;
-      }
-      #main-body-cleaning, #main-body-student {
+
+    #cover-text {
+        width: fit-content;
+    }
+
+    #main-body-cleaning, #main-body-student {
         height: 2400px;
         clear: both;
         width: auto;
@@ -414,5 +420,10 @@ footer {
     }
     body {
       width: fit-content;
+    }
+
+    .header {
+        font-size: 35px;
+        width: fit-content;
     }
   }    
