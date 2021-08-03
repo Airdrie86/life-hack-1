@@ -382,6 +382,12 @@ footer {
         }
         #cover-text {
             margin-left: auto;
+            margin-top: 400px;
+        }
+        #webinar-info {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
         }
   }
   
@@ -425,5 +431,11 @@ footer {
     .header {
         font-size: 35px;
         width: fit-content;
+    }
+    #webinar h2 {
+        font-size: 10pt;
+    }
+    #webinar h3 {
+        font-size: 8pt;
     }
   }    
