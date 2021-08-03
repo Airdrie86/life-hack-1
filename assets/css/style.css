@@ -398,18 +398,26 @@ footer {
           float: left;
           clear: left;
           line-height: 20px;
-          margin-left: 10px;
-          letter-spacing: 1px;
+          margin-left: -1px;
+          letter-spacing: -1px;
       }
     #logo {
           float: left;
           clear: left;
           line-height: 20px;
-          margin-left: 10px;
+          margin-left: 5px;
       }
 
     #cover-text {
         width: fit-content;
+    }
+    
+    #website h2 {
+        font-size: 80%;
+    }
+
+    #website h3 {
+        font-size: 80%;
     }
 
     #main-body-cleaning, #main-body-student {
@@ -438,4 +446,13 @@ footer {
     #webinar h3 {
         font-size: 8pt;
     }
+
+    
+
+    @media screen and (max-width: 500px) {
+    footer {
+        width: 500px;
+    }
+    }
+
   }    
