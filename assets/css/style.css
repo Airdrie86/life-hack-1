@@ -68,12 +68,12 @@ h1, h2  {
 
 
 #cover-text {
-    width: 400px;
-    height: 60px;
+    width: 450px;
+    height: 80px;
 
     color: rgb(255, 255, 255);
     text-align: center;
-    font-size: 120%;
+    font-size: 100%;
     animation: textgrowth 2s alternate;
 
     margin-top: 200px;
@@ -85,15 +85,16 @@ h1, h2  {
 
 @keyframes textgrowth {
     0% {
-    font-size: 80%;
+    font-size: 50%;
     }
-    100% {
-    font-size: 120%;
+    75% {
+    font-size: 75%;
     }
 }
 
-#cover-text > p {
+#cover-text > h2 {
     text-align: center;
+    color: rgb(255, 255, 255);
 }
 
 
@@ -128,12 +129,12 @@ h1, h2  {
     text-align: center;
 }
 
- #website-intro {
+#website-intro {
         height: 500px;
         margin-left: 125px;
- }
+}
 
- #website-intro > h1 {
+#website-intro > h1 {
      text-align: center;
      font-size: 150%;
  }
@@ -143,18 +144,18 @@ h1, h2  {
     font-size: 120%;
 }
 
- #left-about {
+#left-about {
      padding-top: 20px;
      width: 33%;
      float: left;
      margin-top: 20px;
  }
 
- #left-about > p {
+#left-about > p {
      margin-left: 25px;
  }
 
- #right-about {
+#right-about {
     padding: 20px 0 0 0;
     margin: 20px 0 0 20px;
     width: 33%;
