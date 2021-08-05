@@ -6,7 +6,10 @@ My aim was to make a minimilistic website that will catch the eye and hopefully 
 ![2021-08-05 (19)](https://user-images.githubusercontent.com/82090017/128432030-d9927454-5f00-4129-9541-3b6f59bac66b.png)
 
 
-
+<h2>Design</h2>
+<p>For the whole website and decided for a red/black color scheme throughout.<p>
+<p>I wanted to keep the nav bar fixed, to make it easy for the user to navigate.<p>
+<p>
 
 <h2>Features:</h2>
 <p>Navigation Bar - Featured on all 5 pages the navigation bar includes links to the Home Page, Cleaning, Cooking and Students Page plus a final link for the page to register for the newsletter.
@@ -29,6 +32,7 @@ I also inclued clickable pictures, which are also bright to cath the eye, to mak
 
 <h2>Webinar:</h2>
 <p>I also added a seperate section for upcoming webinars. This gives times and dates to webinars that would help give the user more info and help on the relevant subjects. It also gives the user where to find the webinars and tells the user about the social media links placed in the footer below.<p>
+<p>With this part I also hope to use such webinars and social media links to help the user but also help them return to one of our platforms and keep them coming back.
   
 ![2021-08-05 (7)](https://user-images.githubusercontent.com/82090017/128430733-8e0676bb-0f31-4d89-8ae4-4743f248feeb.png)
 
@@ -48,6 +52,7 @@ For the hacks themselves I decided to alternate the pictures and text(First pict
 
 <h2>Register:</h2>
 <p>For the sign up page I decided I wanted to use a picture to be the background of the main body of the page. I wanted to, again, use a picture that spoke to what I wanted to portray for the website(More time to relax) and again catch the users eye.<p>
+ <p>This page is to also help the user return to the website and/or social media platforms. The hope is that people sign up and then will get a newsletter that willl give new hacks and links to social medial platforms.<p>
   
 ![2021-08-05 (20)](https://user-images.githubusercontent.com/82090017/128432136-b815447b-4d5c-441c-a516-442c09017fb1.png)
   
