@@ -72,6 +72,10 @@ For the hacks themselves I decided to alternate the pictures and text(First pict
  <h2>Unfixed Bugs</h2>
  <p>No unfixed bugs<p>
   
+  <h2>Languages Used</h2>
+  <p>HTML5<p>
+  <p>CSS3<P>
+  
  <h2>Deployment</h2>
  The site was deployed to GitHub pages.
  
