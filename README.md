@@ -79,6 +79,7 @@ For the hacks themselves I decided to alternate the pictures and text(First pict
   
  <h2>Deployment</h2>
  The site was deployed to GitHub pages.
+    <a href="https://airdrie86.github.io/life-hack-1/" target="_blank" rel="noopener"<a>Click for live link</a>
  
  <h2>Credits</h2>
  <p>Content- Webinar outline was taken from Love Running project.<p>
