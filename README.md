@@ -60,6 +60,7 @@ For the hacks themselves I decided to alternate the pictures and text(First pict
 <p>I tested this page works in different browsers: Chrome, Firefox, Edge.<p>
 <p>The website was viewed on a variety of devices such as Desktop, laptop and several android devices.
 <p>I confirmed that the website is responsive and works on all standard screen sizes<p>
+<p>I have confirmed that the form works and will only take a valid email and the submit button works.<p>
   
  <h2>Validator Testing:</h2>
  <p>The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.<p>
