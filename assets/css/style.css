@@ -74,7 +74,7 @@ h1, h2  {
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 100%;
-    animation: textgrowth 2s alternate;
+    animation: textgrowth 1s alternate;
 
     margin-top: 200px;
     margin-left: 550px;
