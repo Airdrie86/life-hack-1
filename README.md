@@ -83,7 +83,9 @@ For the hacks themselves I decided to alternate the pictures and text(First pict
  
  <h2>Credits</h2>
  <p>Content- Webinar outline was taken from Love Running project.<p>
-  <p>Media- All images were taken from pixabay.com<p> 
+ <p>Media- All images were taken from pixabay.com<p> 
+ <p>Fonts- Google fonts.<p> 
+ <p>Icons- Font Awesome.<p>
     
  <h2>Acknolowledgements</h2>
    <p> Thanks to my mentor for helpful feedback<p>
